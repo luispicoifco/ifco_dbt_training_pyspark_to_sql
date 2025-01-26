@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ifco-dbt-training-pyspark-to-sql"
+version = "0.1.0"
+description = ""
+authors = ["Luis Pico <luis.pico@ifco.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+databricks = "^0.2"
+dbt-core = "^1.8.4"
+dbt-databricks = "^1.8.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
